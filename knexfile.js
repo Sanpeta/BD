@@ -28,10 +28,10 @@ module.exports = {
   //production: {
     client: 'mysql',
     connection: {
-        host: 'localhost',
-        database: 'evento',
+        host: '127.0.0.1',
+        database: 'bd',
         user:     'root',
-        password: '82161270'
+        password: '12345678'
     },
     pool: {
       min: 2,
